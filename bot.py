@@ -11,7 +11,7 @@ from telegram.error import BadRequest
 # ----------------- CONFIGURATION FROM ENVIRONMENT VARIABLES -----------------
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6406261277:AAFHaNkwP_0PubT96ybFaie6bp50PILjsKk")
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "anymovies1_bot") # No @ symbol
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://manisa3233b_db_user:<manisa3233b_db_user>@cluster0.5euqcbc.mongodb.net/?appName=Cluster0")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://manisa3233b_db_user:manisa3233b_db_user@cluster0.5euqcbc.mongodb.net/?appName=Cluster0")
 STORAGE_CHANNEL_ID = int(os.environ.get("STORAGE_CHANNEL_ID", "-1001663513937"))
 UPDATES_CHANNEL_ID = int(os.environ.get("UPDATES_CHANNEL_ID", "-1004343424667"))
 UPDATES_CHANNEL_LINK = os.environ.get("UPDATES_CHANNEL_LINK", "https://t.me/+GkqvHaJDgpU4ZTVl")
