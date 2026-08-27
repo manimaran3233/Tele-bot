@@ -9,12 +9,12 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 from telegram.error import BadRequest
 
 # ----------------- CONFIGURATION FROM ENVIRONMENT VARIABLES -----------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN")
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "YourBotUsername") # No @ symbol
-MONGO_URI = os.environ.get("MONGO_URI", "your_mongodb_uri")
-STORAGE_CHANNEL_ID = int(os.environ.get("STORAGE_CHANNEL_ID", "-1001234567890"))
-UPDATES_CHANNEL_ID = int(os.environ.get("UPDATES_CHANNEL_ID", "-1009876543210"))
-UPDATES_CHANNEL_LINK = os.environ.get("UPDATES_CHANNEL_LINK", "https://t.me/YourChannelLink")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6406261277:AAFHaNkwP_0PubT96ybFaie6bp50PILjsKk")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "anymovies1_bot") # No @ symbol
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://manisa3233b_db_user:<manisa3233b_db_user>@cluster0.5euqcbc.mongodb.net/?appName=Cluster0")
+STORAGE_CHANNEL_ID = int(os.environ.get("STORAGE_CHANNEL_ID", "-1001663513937"))
+UPDATES_CHANNEL_ID = int(os.environ.get("UPDATES_CHANNEL_ID", "-1004343424667"))
+UPDATES_CHANNEL_LINK = os.environ.get("UPDATES_CHANNEL_LINK", "https://t.me/+GkqvHaJDgpU4ZTVl")
 PORT = int(os.environ.get("PORT", "8080")) # Render assigns this automatically
 
 logging.basicConfig(level=logging.INFO)
